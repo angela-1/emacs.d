@@ -521,8 +521,8 @@ typical word processor."
 	       '("a4paper, top=40pt, bottom=40pt,%
 left=30pt, right=30pt" "geometry" t))
 
-  (add-to-list 'org-latex-packages-alist
-               '("UTF8" "ctex" t))
+  ; (add-to-list 'org-latex-packages-alist
+  ;              '("UTF8" "ctex" t))
   
 
   
