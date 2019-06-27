@@ -1,9 +1,12 @@
+;;; init-elm.el --- Support for the Elm language -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (when (maybe-require-package 'elm-mode)
-  (setq-default elm-format-on-save t)
   (after-load 'elm-mode
     (diminish 'elm-indent-mode)
-    (add-hook 'elm-mode-hook
-              (lambda () (sanityinc/local-push-company-backend 'company-elm)))
+    (after-load 'company
+      (push 'company-elm company-backends))
     (when (executable-find "elm-format")
       (setq-default elm-format-on-save t)))
   (maybe-require-package 'elm-test-runner)
@@ -12,3 +15,4 @@
       (flycheck-elm-setup))))
 
 (provide 'init-elm)
+;;; init-elm.el ends here

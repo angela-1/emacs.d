@@ -13,7 +13,7 @@ Emacs itself comes with support for many programming languages. This
 config adds improved defaults and extended support for the following, listed
 in the approximate order of how much I use them, from most to least:
 
-* Haskell / Elm
+* Haskell / Purescript / Elm
 * Ruby / Ruby on Rails
 * CSS / LESS / SASS / SCSS
 * Javascript / Typescript / Coffeescript
@@ -115,10 +115,11 @@ versions (see "Updates" above). If you still experience problems, go ahead and
 
 <hr>
 
-[Support this project and my other Open Source work](https://www.patreon.com/sanityinc)
 
-[![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://uk.linkedin.com/in/stevepurcell)
+[💝 Support this project and my other Open Source work](https://www.patreon.com/sanityinc)
 
-[sanityinc.com](http://www.sanityinc.com/)
+[💼 LinkedIn profile](https://uk.linkedin.com/in/stevepurcell)
 
-[@sanityinc](https://twitter.com/sanityinc)
+[✍ sanityinc.com](http://www.sanityinc.com/)
+
+[🐦 @sanityinc](https://twitter.com/sanityinc)
