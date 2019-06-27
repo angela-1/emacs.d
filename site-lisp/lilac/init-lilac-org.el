@@ -530,10 +530,10 @@ left=30pt, right=30pt" "geometry" t))
   (add-to-list 'org-latex-classes
 	       '("work-note"
 		 "\\documentclass{article}
-\\input{preamble}
 [NO-DEFAULT-PACKAGES]
 [PACKAGES]
-[EXTRA]"
+[EXTRA]
+\\input{preamble}"
              ("\\section{%s}" . "\\section*{%s}")
              ("\\subsection{%s}" . "\\subsection*{%s}")
              ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
